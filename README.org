@@ -43,3 +43,16 @@ Entregable: Repositorio Github público con los script, tiempo disponible 24 hor
 
 ** Entregable:
 Repositorio Github público con los script, tiempo disponible 24 horas
+
+* configuraciones previas
+- Cuenta de AWS: Si aún no tienes una cuenta de AWS, deberás crear una. AWS ofrece una capa gratuita que puedes utilizar para probar sus servicios.
+
+- Instalación de las herramientas: Deberás tener instalados en tu equipo local Terraform, Packer y Ansible. Todos ellos están disponibles para Windows, Mac y Linux.
+
+- Configuración de AWS CLI: AWS CLI es una herramienta que te permite interactuar con los servicios de AWS desde la línea de comandos. Necesitarás instalarla y configurarla con tus credenciales de AWS. Puedes hacerlo siguiendo las instrucciones oficiales de AWS.
+
+- Crear un par de claves SSH: Necesitarás un par de claves SSH para poder acceder a las instancias de EC2 que crees. Puedes crear un par de claves en la consola de AWS o en tu equipo local y luego importarlo a AWS.
+
+- Establecer tus variables de entorno: Asegúrate de que tus claves de acceso AWS (AWS_ACCESS_KEY y AWS_SECRET_ACCESS_KEY) estén configuradas como variables de entorno. Esto es importante ya que las utilizará Terraform para interactuar con tu cuenta de AWS.
+
+- Repositorio de GitHub: Deberás tener un repositorio en GitHub donde alojarás tu código. Esto implica tener una cuenta de GitHub y tener instalado git en tu máquina local.
