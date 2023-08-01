@@ -1,0 +1,45 @@
+:PROPERTIES:
+:GPTEL_MODEL: gpt-3.5-turbo
+:GPTEL_BOUNDS: ((40346 . 40713) (40820 . 42053))
+:END:
+#+TITLE: Ejercicio práctico para el puesto de SRE
+#+SUBTITLE: Amazon Web Services
+#+AUTHOR: Sebastian Godoy Olivares
+#+EMAIL: shackleto@riseup.net
+#+DATE: 
+#+DESCRIPTION: Practico SRE
+#+KEYWORDS: devops, gcp
+#+LANGUAGE: es
+#+OPTIONS: toc:nil num:nil
+#+CATEGORY: devops
+#+TAGS: devops, gcp, cloud, iac
+
+* Objetivo:
+Demostrar de forma práctica el conocimiento de automatización y configuración de
+infraestructura.
+
+** Herramientas a evaluar:
+- Packer
+- Ansible
+- Terraform
+- Terragrunt(opcional)
+
+Utilizando una cuenta gratuita de AWS realizar la automatización del siguiente
+ejercicio
+
+[[diagrama.png]]
+
+Utilizando la VPC y redes por defecto de la cuenta realizar los scripts de automatización para los
+siguientes componentes:
+- Application Load Balancer
+- Security Groups
+- AMI (optional encryption)
+- RDS (PostgreSQL)
+- R53 alias
+- R53 Hosted Zone
+- EFS (optional)
+
+Entregable: Repositorio Github público con los script, tiempo disponible 24 hora
+
+** Entregable:
+Repositorio Github público con los script, tiempo disponible 24 horas
